@@ -1,9 +1,10 @@
-streamlit
-ultralytics
-opencv-python-headless
-numpy
-Pillow
+streamlit==1.33.0
+ultralytics==8.2.0
 
--f https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
+opencv-python-headless==4.9.0.80
+pillow
+numpy
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
