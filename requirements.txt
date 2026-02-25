@@ -3,7 +3,7 @@ ultralytics
 opencv-python-headless
 numpy
 Pillow
-# CPU-only PyTorch (use the matching -f link on Streamlit Cloud if needed)
+
 -f https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.2.0+cpu
+torch==2.0.1+cpu
 torchvision==0.15.2+cpu
